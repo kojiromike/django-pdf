@@ -6,7 +6,7 @@ setup(
 	url              = "https://github.com/directeur/django-pdf",
 	license          = "GPLv2",
 	description      = "A Django middleware that automatically converts views from html to pdf output.",
-	author           = "Directeur",
+	author           = "Karim A. (Directeur) <directeur@gmail.com>",
 	packages         = find_packages("django_pdf"),
 	package_dir      = {"": "django_pdf"},
 	install_requires = [
