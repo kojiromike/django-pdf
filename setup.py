@@ -9,5 +9,9 @@ setup(
 	author           = "Karim A. (Directeur) <directeur@gmail.com>",
 	packages         = find_packages("django_pdf"),
 	package_dir      = {"": "django_pdf"},
-	install_requires = ["setuptools",] + open("requirements.txt").readlines()
+	install_requires = [
+		"setuptools",
+		"django",
+		"xhtml2pdf",
+	],
 )
